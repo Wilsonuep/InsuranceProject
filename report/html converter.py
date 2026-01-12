@@ -44,4 +44,4 @@ async def convert_html_to_pdf(html_file, output_pdf):
 
 if __name__ == "__main__":
     # Ensure your input file exists in the same directory
-    asyncio.run(convert_html_to_pdf('project_notebook.html', 'dudek_wilma_project.pdf'))
+    asyncio.run(convert_html_to_pdf('report/dataload.html', 'report/dudek_wilma_project_dataload.pdf'))
